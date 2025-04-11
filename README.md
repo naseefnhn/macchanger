@@ -21,7 +21,7 @@ A MAC (Media Access Control) address is a unique identifier assigned to network 
 - Python 3
 - `ifconfig` command (usually comes with `net-tools` package)
 
-## 📦 Installation
+USAGE 
 
-```bash
-sudo apt install net-tools
+sudo python3 mac_changer.py -i eth0 -m 00:11:22:33:44:55
+
